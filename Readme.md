@@ -18,11 +18,13 @@ Please refere https://wiki.connectall.com/ca/latest/user-guide/adapters/custom-a
 * Create an application link in ConnectALL between Trello and a destination application of your choice
 * In the Entity mapping tab under Advanced Properties choose "Sync Type" as POLL
 * In the WebHook Grid use the templates below for each operation
-| Operation | API Method | Template |
-| QUERY MODIFIED RECORDS | GET | /1/boards/${board}?cards=all&card_members=true&card_member_fields=all&card_customFieldItems=true&cards_modifiedSince=${last-modified-time}&key=MyAPIKEY&token=MyAPIToken |
-| READ RECORD BY ID | GET | /1/cards/${recordId}?fields=all&checkItemStates=false&checklists=all&checklist_fields=all&board=false&list=true&pluginData=false&customFieldItems=true&key=MyAPIKEY&token=MyAPIToken |
-| CREATE RECORD | POST | /1/cards?idList=5dd3340ce51d2e1893b8ef7e&key=MyAPIKEY&token=MyAPIToken |
-| UPDATE RECORD | PUT | /1/cards/${recordid}?&key=MyAPIKEY&token=MyAPIToken |
+
+|Operation|API Method|Template|
+|--- | --- | ---|
+|QUERY MODIFIED RECORDS|GET|/1/boards/${board}?cards=all&card_members=true&card_member_fields=all&card_customFieldItems=true&cards_modifiedSince=${last-modified-time}&key=MyAPIKEY&token=MyAPIToken|
+|READ RECORD BY ID|GET|/1/cards/${recordId}?fields=all&checkItemStates=false&checklists=all&checklist_fields=all&board=false&list=true&pluginData=false&customFieldItems=true&key=MyAPIKEY&token=MyAPIToken|
+|CREATE RECORD|POST|/1/cards?idList=5dd3340ce51d2e1893b8ef7e&key=MyAPIKEY&token=MyAPIToken|
+|UPDATE RECORD|PUT|/1/cards/${recordid}?&key=MyAPIKEY&token=MyAPIToken|
 
 In order to use the trello adapter you will need to get the license from ConnectALL sales team. Please reach out to sales@connectall.com for licenses and quotes. 
 
