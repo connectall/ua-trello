@@ -27,5 +27,5 @@ Please refere https://wiki.connectall.com/ca/latest/user-guide/adapters/custom-a
 |CREATE RECORD|POST|/1/cards?idList=5dd3340ce51d2e1893b8ef7e&key=MyAPIKEY&token=MyAPIToken|
 |UPDATE RECORD|PUT|/1/cards/${recordid}?&key=MyAPIKEY&token=MyAPIToken|
 
-In order to use the trello adapter you will need to get the license from ConnectALL sales team. Please reach out to sales@connectall.com for licenses and quotes.
+> In order to use the trello adapter you will need to get the license from ConnectALL sales team. Please reach out to sales@connectall.com for licenses and quotes.
 
