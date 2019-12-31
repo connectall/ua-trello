@@ -1,0 +1,170 @@
+{
+	"displayName": "Trello Adapter",
+	"type": "trello",
+	"logo": "trello.png",
+	"logoSmall": "trello-small.png",
+	"metadata": [
+    {
+      "name": "entity",
+      "dependent": false,
+      "dependentMetadata": "",
+      "values": [
+        {
+          "id": "card",
+          "name": "Card"
+        }
+      ]
+    },
+    {
+      "name": "board",
+      "dependent": false,
+      "dependentMetadata": "",
+      "values": [
+        {
+          "id": "iwglQ1jD",
+          "name": "Personal"
+        },
+        {
+          "id": "i4fQSyPQ",
+          "name": "Webinar Test"
+        },
+        {
+          "id": "HNKJE9Fk",
+          "name": "Work"
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "id": "id",
+      "name": "Id",
+      "datatype": "string"
+    },
+    {
+      "id": "name",
+      "name": "Name",
+      "datatype": "string"
+    },
+    {
+      "id": "desc",
+      "name": "Description",
+      "datatype": "string"
+    },
+    {
+      "id": "url",
+      "name": "URL",
+      "datatype": "string"
+    },
+    {
+      "id": "description",
+      "name": "Description",
+      "datatype": "string"
+    },
+    {
+      "id": "due",
+      "name": "Due Date",
+      "datatype": "date"
+    },
+    {
+      "id": "shortLink",
+      "name": "Short ID",
+      "datatype": "string"
+    },
+    {
+      "id": "shortUrl",
+      "name": "Short URL",
+      "datatype": "url"
+    },
+    {
+      "id": "5dd3353eaa17934fb90594eb",
+      "name": "Jira Id",
+      "datatype": "string"
+    },
+    {
+      "id": "5dd3354aa02617252ecea93d",
+      "name": "Jira URL",
+      "datatype": "string"
+    },
+    {
+      "id": "5dd33554178b596f6471f8b9",
+      "name": "Jira Custom Date",
+      "datatype": "date"
+    },
+    {
+      "id": "5dd3355df5a3a60897f18d2d",
+      "name": "Story Points",
+      "datatype": "number"
+    },
+    {
+      "id": "List",
+      "name": "Card List Name",
+      "datatype": "string",
+      "values": [
+        {
+          "id": "5dd3340ce51d2e1893b8ef7e",
+          "name": "To Do",
+          "isRegex": false
+        },
+        {
+          "id": "5dd33410e234b4571de40dbb",
+          "name": "In Progress",
+          "isRegex": false
+        },
+        {
+          "id": "5dd33411b25654618abe3370",
+          "name": "Done",
+          "isRegex": false
+        }
+      ]
+    },
+    {
+      "id": "5dd3358357e6280dc247628b",
+      "name": "Priority",
+      "datatype": "string",
+      "values": [
+        {
+          "id": "5dd3358357e6280dc2476290",
+          "name": "Highest",
+          "isRegex": false
+        },
+        {
+          "id": "5dd3358357e6280dc247628f",
+          "name": "High",
+          "isRegex": false
+        },
+        {
+          "id": "5dd3358357e6280dc247628e",
+          "name": "Medium",
+          "isRegex": false
+        },
+        {
+          "id": "5dd3358357e6280dc247628d",
+          "name": "Low",
+          "isRegex": false
+        },
+        {
+          "id": "5dd3358357e6280dc247628c",
+          "name": "Lowest",
+          "isRegex": false
+        }
+      ]
+    }
+  ],
+	"loginOptions": ["appKey","authToken"],
+	"idFieldName": "id",
+	"titleFieldName": "name",
+	"projectFieldName": "board",
+	"artifactFieldName": "entity",
+	"testStepsFieldName": "",
+	"changedDateFieldName": "modified",
+	"dateFormat": "yyyy-MM-dd",
+	"dateTimeFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+	"isISO8601DateFormat": "false",
+	"commentFieldName": "",
+	"commentFieldId": "",
+	"attachmentFieldName": "",
+	"attachmentFieldId": "",
+	"apiVersion": "1",
+	"applicationType": "generic"
+}
