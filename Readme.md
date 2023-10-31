@@ -7,6 +7,18 @@ Please refer to https://wiki.connectall.com/ca/latest/adapters/universal-adapter
 
 # How to use
 
+## Connection Credentials
+* Use the URL for trello :
+* Login to Trello and navigate to https://trello.com/app-key and capture `Personal Key` and Generate a self `Token` to use for connection
+* While creating the Connection use as below
+```
+URL: https://api.trello.com
+Username: <Login User> Ex: sharath.bhaskara[at]broadcom[dot]com
+API Key: key
+API Value: <Personal Key>
+Token: <Token>
+```
+
 ## Import specifications
 * Import *-adapter-descriptor.json in to ConnectALL using "Install custom adapter" feature. Customize the descriptor after importing to fit your personal boards and custom fields
 * View the transformation specs and open the transformation spec page
