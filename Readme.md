@@ -1,4 +1,4 @@
-# ConnectALL Trello Adapter 
+# ua-trello
 
 ConnectALL Trello Adapter is developed as an extension to the Universal adapter capability of ConnectALL. This adapter specifications will let the user use Trello with Webhooks to read and write the data in to Trello. 
 
